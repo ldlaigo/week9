@@ -128,12 +128,6 @@ li a:hover {
 }
 </style>
 <title>My Practice Website(HTML)</title>
-<script>
-  alert("I DONT KNOW WHAT TO PUT I SWEAR!");
-  function msg(){  
-    alert("I still dont know what to put please send help");  
-  } 
-</script>
 </head>
 <body>
 <div class="topnav">

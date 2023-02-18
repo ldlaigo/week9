@@ -142,9 +142,6 @@ li a:hover {
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
-  <form action="forms.php">
-	<button type="submit">Click me</button>
-  </form>
 </div>
 <div class = "divbody">
 <p id="date"></p>

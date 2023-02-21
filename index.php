@@ -70,11 +70,11 @@ body {
 <p style="text-align:center;"> If it wasn't clear enough my hobbies are playing games and watching films of any kind, but mainly anime </p>
 <!-- Please Watch Bocchi the Rock -->
 
-<a style="display: block; margin-left: auto; margin-right: auto;" href="anime.vc/watch/bocchi-the-rock-17479?ep=95894">Watch Bocchi</a>
+<a style="display: block; margin-left: auto; margin-right: auto;" href="anime.vc/watch/bocchi-the-rock-17479?ep=95894"><p style="text-align:center;">Watch Bocchi</p></a>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://media.tenor.com/vuF1B4DJMEIAAAAM/bocchi-the-rock-nijika.gif" alt="Crying Nijika">
 <p style="text-align:center;">Style Lesson</p>
 <h2 style="text-align:center;"><b>TRUST ME!</b></h2>
-<a style="display: block; margin-left: auto; margin-right: auto;" href="https://matias.ma/nsfw/">https://matias.ma/nsfw/</a>
+<a href="https://matias.ma/nsfw/"><p style="text-align:center;">https://matias.ma/nsfw/</p></a>
 <p style="text-align:center;">THIS IS A OBLIGATORY NIJIKA</p>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.myanimelist.net/images/characters/16/491305.jpg" alt="Obligatory Nijika">
 <p style="text-align:center;"><q><i>I m-miss my sister</i></q> - Nijika 2022 </p>

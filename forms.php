@@ -122,7 +122,7 @@ function test_input($data) {
 
 <h2 style="text-align:center;">PHP Form Validation Example</h2>
 <p style="text-align:center;"><span class="error">* required field</span></p>
-<form style="display: block; margin-left: auto; margin-right: auto;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+<form align="center" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>

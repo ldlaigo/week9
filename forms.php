@@ -5,8 +5,64 @@
 .error {color: #FF0000;}
 </style>
 </head>
-<body>  
+<style>
+.topnav {
+  margin: -10px;
+  background-color: rgb(250,246,231);
+  border: .5px solid black;
+  overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:  rgb(221,197,105);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ae8b0c;
+  color: white;
+}
+.topnav a.icon {
+  padding: 0px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body {
+  background-color: rgba(225,197,100, 0.8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body>  
+<div class="topnav">
+  <a class ="icon" href="#home"><img src="https://64.media.tumblr.com/e0b978612c68d83635151d03fa995a0c/e1089a909f72b296-c7/s540x810/640bd85b2a8cc63ab5d08ee11459fec87c3a681a.jpg" style="width:48px;height:48px; margin:0px; margin-bottom:-5px;"></a>
+  <a class="active" href="#home">Home</a>
+  <a href="forms.php">Forms</a>
+  <a href="#chatters">Chatter List</a>
+  <a href="#about">About</a>
+</div>
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -64,9 +120,9 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+<h2 style="text-align:center;">PHP Form Validation Example</h2>
+<p style="text-align:center;"><span class="error">* required field</span></p>
+<form style="display: block; margin-left: auto; margin-right: auto;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>

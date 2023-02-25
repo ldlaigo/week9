@@ -108,6 +108,50 @@ section {
 .comment-avatar {
   border-radius: 50%;
 }
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #007bff; /* you can change the color to your preferred color */
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #007bff; /* you can change the color to your preferred color */
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem !important;
+}
+.text-muted {
+  color: #6c757d;
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
     </style>
 </head>
 <body>

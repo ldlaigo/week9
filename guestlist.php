@@ -90,7 +90,6 @@ section {
 }
 
 .card-body p {
-  color: #6C757D;
   margin-bottom: 0;
 }
 
@@ -137,6 +136,7 @@ section {
 
 .pb-2 {
   padding-bottom: 0.5rem !important;
+  padding-left: 4rem;
 }
 .text-muted {
   color: #6c757d;
@@ -166,11 +166,11 @@ h6 {
 .d-flex.flex-start.align-items-center h6 {
   font-weight: bold;
   color: #007bff;
-  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 .d-flex.flex-start.align-items-center p {
-  color: #6c757d;
   font-size: small;
   margin-bottom: 0;
 }

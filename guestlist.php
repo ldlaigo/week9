@@ -62,6 +62,49 @@ section {
   background-color: #C1A00E;
 }
 
+.container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-body img {
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h6 {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 0.5rem;
+}
+
+.card-body p {
+  color: #6C757D;
+  margin-bottom: 0;
+}
+
+.card-body .mt-3 {
+  margin-top: 1rem;
+}
+
+.card-body .mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.card-body .pb-2 {
+  padding-bottom: 0.5rem;
+}
 .comment-avatar {
   border-radius: 50%;
 }
@@ -84,9 +127,6 @@ section {
   color: #007bff; /* you can change the color to your preferred color */
 }
 
-.mb-1 {
-  margin-bottom: 1rem;
-}
 .mt-3 {
   margin-top: 1rem !important;
 }
@@ -114,7 +154,6 @@ h6 {
 }
 .d-flex.flex-start.align-items-center {
   display: flex;
-  align-items: center;
 }
 
 .d-flex.flex-start.align-items-center img {

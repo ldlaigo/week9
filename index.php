@@ -61,7 +61,7 @@ body {
   <a class ="icon" href="index.php"><img src="https://64.media.tumblr.com/e0b978612c68d83635151d03fa995a0c/e1089a909f72b296-c7/s540x810/640bd85b2a8cc63ab5d08ee11459fec87c3a681a.jpg" style="width:48px;height:48px; margin:0px; margin-bottom:-5px;"></a>
   <a class="active" href="index.php">Home</a>
   <a href="forms.php">Forms</a>
-  <a href="index.php">Chatter List</a>
+  <a href="guestlist.php">Chatter List</a>
   <a href="#about">About</a>
 </div>
 <div class = "divbody">

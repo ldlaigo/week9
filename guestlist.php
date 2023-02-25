@@ -55,6 +55,40 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+section {
+    background-color: #eee;
+  }
+.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+.card {
+    border: none;
+  }
+.card-body {
+    padding: 2rem;
+  }
+.rounded-circle {
+    object-fit: cover;
+  }
+.fw-bold {
+    font-weight: 700;
+  }
+.text-primary {
+    color: #0d6efd;
+  }
+.small {
+    font-size: 0.875rem;
+  }
+.me-3 {
+    margin-right: 1rem;
+  }
+.mb-1 {
+    margin-bottom: 0.25rem;
+  }
+.mb-0 {
+    margin-bottom: 0;
+  }
 </style>
 <body>
 <div class="topnav">
@@ -83,7 +117,23 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - Name: ". $row["name"]. " - Email: " . $row["email"] . "<br>";
+        echo '<section style="background-color: #eee;">
+  <div class="container my-5 py-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-12 col-lg-10 col-xl-8">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex flex-start align-items-center">
+              <img class="rounded-circle shadow-1-strong me-3"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="60"
+                height="60" />
+              <div>
+                <h6 class="fw-bold text-primary mb-1">Lily Coleman</h6>
+                <p class="text-muted small mb-0">
+                  Shared publicly - Jan 2020
+                </p>
+              </div>
+            </div>';
     }
 } else {
     echo "0 results";

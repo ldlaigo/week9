@@ -152,6 +152,9 @@ section {
 .mb-0 {
   margin-bottom: 0 !important;
 }
+h6 {
+  font-size: 4rem; /* change the value to the desired size */
+}
     </style>
 </head>
 <body>

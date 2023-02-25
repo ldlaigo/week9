@@ -12,7 +12,7 @@
           border: .5px solid black;
           overflow: hidden;
         }
-        
+
         /* Style the links inside the navigation bar */
         .topnav a {
           float: left;
@@ -22,21 +22,23 @@
           text-decoration: none;
           font-size: 17px;
         }
-        
+
         /* Change the color of links on hover */
         .topnav a:hover {
           background-color: #ddd;
           color: black;
         }
-        
+
         /* Add a color to the active/current link */
         .topnav a.active {
           background-color: #ae8b0c;
           color: white;
         }
+
         .topnav a.icon {
           padding: 0px;
         }
+
         li a {
           display: block;
           color: white;
@@ -44,54 +46,67 @@
           padding: 14px 16px;
           text-decoration: none;
         }
-        
+
         li a:hover {
           background-color: #111;
         }
+
         body {
           background-color: rgba(225,197,100, 0.8);
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
         }
+
         section {
             background-color: #eee;
-          }
+        }
+
         .container {
             margin-top: 5rem;
             margin-bottom: 5rem;
-          }
+        }
+
         .card {
             border: none;
-          }
+        }
+
         .card-body {
             padding: 2rem;
-          }
+        }
+
         .rounded-circle {
             object-fit: cover;
-          }
+        }
+
         .fw-bold {
             font-weight: 700;
-          }
+        }
+
         .text-primary {
             color: #0d6efd;
-          }
+        }
+
         .small {
             font-size: 0.875rem;
-          }
+        }
+
         .me-3 {
             margin-right: 1rem;
-          }
+        }
+
         .mb-1 {
             margin-bottom: 0.25rem;
-          }
+        }
+
         .mb-0 {
             margin-bottom: 0;
-          }
+        }
+
         p {
-          margin-top: 1rem;
-          margin-bottom: 1rem;
-          padding-bottom: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
         }
     </style>
 </head>

@@ -58,56 +58,56 @@
           background-size: cover;
         }
 
-        section {
-            background-color: #eee;
-        }
+section {
+  background-color: #C1A00E;
+}
 
-        .container {
-            margin-top: 5rem;
-            margin-bottom: 5rem;
-        }
+.container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 
-        .card {
-            border: none;
-        }
+.card {
+  width: 100%;
+}
 
-        .card-body {
-            padding: 2rem;
-        }
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-        .rounded-circle {
-            object-fit: cover;
-        }
+.card-body img {
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 1px rgba(0, 0, 0, 0.1);
+}
 
-        .fw-bold {
-            font-weight: 700;
-        }
+.card-body h6 {
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 0.5rem;
+}
 
-        .text-primary {
-            color: #0d6efd;
-        }
+.card-body p {
+  color: #6C757D;
+  margin-bottom: 0;
+}
 
-        .small {
-            font-size: 0.875rem;
-        }
+.card-body .mt-3 {
+  margin-top: 1rem;
+}
 
-        .me-3 {
-            margin-right: 1rem;
-        }
+.card-body .mb-4 {
+  margin-bottom: 1.5rem;
+}
 
-        .mb-1 {
-            margin-bottom: 0.25rem;
-        }
-
-        .mb-0 {
-            margin-bottom: 0;
-        }
-
-        p {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-        }
+.card-body .pb-2 {
+  padding-bottom: 0.5rem;
+}
+.comment-avatar {
+  border-radius: 50%;
+}
     </style>
 </head>
 <body>
@@ -149,14 +149,14 @@ if ($result->num_rows > 0) {
                   src="https://pm1.narvii.com/6190/f5a1c4e4ac9ad3c503508a4855552b512b8d99b9_hq.jpg" alt="avatar" width="60"
                   height="60" />
                 <div>
-                  <h6 class="fw-bold text-primary mb-1"> Chatter#'.$row['id'].$row['name'].'</h6>
+                  <h6 class="fw-bold text-primary mb-1"> Chatter#'.$row['id'].' '.$row['name'].'</h6>
                   <p class="text-muted small mb-0">
 	'.$row['email'].' - '.$row['reg_date']. '
                   </p>
                 </div>
               </div>
 			  <p class="mt-3 mb-4 pb-2">
-				Comment:'.$row['comment'].'
+				Comment:<br>'.$row['comment'].'
 			  </p>
             </div>
           </div>

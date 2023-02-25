@@ -154,12 +154,13 @@ h6 {
 }
 .d-flex.flex-start.align-items-center {
   display: flex;
+  align-items: center;
 }
 
 .d-flex.flex-start.align-items-center img {
   border-radius: 50%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .d-flex.flex-start.align-items-center h6 {

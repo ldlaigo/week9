@@ -123,7 +123,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo '
-<section style="background-color: #87CEFA;">
+<section style="background-color: #C1A00E;">
     <div class="container my-5 py-5">
       <div class="row d-flex justify-content-center">
         <div class="col-md-12 col-lg-10 col-xl-8">
@@ -131,17 +131,17 @@ if ($result->num_rows > 0) {
             <div class="card-body">
               <div class="d-flex flex-start align-items-center">
                 <img class="rounded-circle shadow-1-strong me-3"
-                  src="_____________" alt="avatar" width="60"
+                  src="https://pm1.narvii.com/6190/f5a1c4e4ac9ad3c503508a4855552b512b8d99b9_hq.jpg" alt="avatar" width="60"
                   height="60" />
                 <div>
-                  <h6 class="fw-bold text-primary mb-1">'.$row['name'].'</h6>
+                  <h6 class="fw-bold text-primary mb-1"> Chatter#'.$row['id'].$row['name'].'</h6>
                   <p class="text-muted small mb-0">
 	'.$row['email'].' - '.$row['reg_date']. '
                   </p>
                 </div>
               </div>
 			  <p class="mt-3 mb-4 pb-2">
-				'.$row['comment'].'
+				Comment:'.$row['comment'].'
 			  </p>
             </div>
           </div>

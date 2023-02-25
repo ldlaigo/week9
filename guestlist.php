@@ -89,6 +89,11 @@ section {
 .mb-0 {
     margin-bottom: 0;
   }
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
 </style>
 <body>
 <div class="topnav">
@@ -117,23 +122,33 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo '<section style="background-color: #eee;">
-  <div class="container my-5 py-5">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-12 col-lg-10 col-xl-8">
-        <div class="card">
-          <div class="card-body">
-            <div class="d-flex flex-start align-items-center">
-              <img class="rounded-circle shadow-1-strong me-3"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="60"
-                height="60" />
-              <div>
-                <h6 class="fw-bold text-primary mb-1">Lily Coleman</h6>
-                <p class="text-muted small mb-0">
-                  Shared publicly - Jan 2020
-                </p>
+        echo '
+<section style="background-color: #87CEFA;">
+    <div class="container my-5 py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-12 col-lg-10 col-xl-8">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex flex-start align-items-center">
+                <img class="rounded-circle shadow-1-strong me-3"
+                  src="_____________" alt="avatar" width="60"
+                  height="60" />
+                <div>
+                  <h6 class="fw-bold text-primary mb-1">'.$row['name'].'</h6>
+                  <p class="text-muted small mb-0">
+	'.$row['email'].' - '.$row['reg_date']. '
+                  </p>
+                </div>
               </div>
-            </div>';
+			  <p class="mt-3 mb-4 pb-2">
+				'.$row['comment'].'
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>';
     }
 } else {
     echo "0 results";

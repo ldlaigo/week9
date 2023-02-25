@@ -155,6 +155,28 @@ section {
 h6 {
   font-size: 2.5rem; /* change the value to the desired size */
 }
+.d-flex.flex-start.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex.flex-start.align-items-center img {
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin-right: 1rem;
+}
+
+.d-flex.flex-start.align-items-center h6 {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.d-flex.flex-start.align-items-center p {
+  color: #6c757d;
+  font-size: small;
+  margin-bottom: 0;
+}
     </style>
 </head>
 <body>

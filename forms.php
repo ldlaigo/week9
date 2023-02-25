@@ -155,6 +155,38 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+<?php
+$servername = "192.168.150.213";
+$username = "webprogss211";
+$password = "fancyR!ce36";
+$dbname = "webprogss211";
 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+//Create database
+$sql = "CREATE TABLE ldlaigo_guest (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(50) NOT NULL,
+website VARCHAR(300),
+comment VARCHAR(300),
+gender VARCHAR(6),
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Table ldlaigo_guest created successfully!";
+} else {
+  echo "LMAO error creating table: " . $conn->error;
+}
+
+$conn->close();
+?>
 </body>
 </html>

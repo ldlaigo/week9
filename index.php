@@ -240,35 +240,35 @@ print "Nice to meet you! <br>";
 $x = 2003;
 $y = 2023;
 $age = $y - $x;
-echo "Again I am". $age ."this year!";
+echo "Again I am ". $age ." this year! ";
 // 6. Conditionals
 if ($age >= 18) {
   echo "I may be eternally 15 but yes I am an adult. <br>";
 } else {
   echo "bro no way. <br>";
 }
-echo "Don't mind this random number, it's for loop"
+echo "Don't mind this random number, it's for loop";
 for ($i = 0; $i < 5; $i++) {
   echo $i . " ";
 }
-echo "this too"
+echo "this too";
 function square($num) {
   return $num * $num;
 }
 echo "The square of 5 is " . square(5) . ". <br>";
-echo "and this..."
+echo "and this...";
 $colors = array("red", "not green", "blue");
 echo "My favorite color is " . $colors[1] . ". <br>";
-echo "especially this..."
+echo "especially this...";
 $person = array(
   "name" => "Bocchi",
   "job" => "Rock"
 );
 echo $person["name"] . " is the " . $person["job"] . ". <br>";
-echo "lastly this"
+echo "lastly this";
 echo "The current PHP file is " . $_SERVER["PHP_SELF"] . ". <br>";
 echo "The user's IP address is " . $_SERVER["REMOTE_ADDR"] . ". <br>";
-echo "OKAY I PROMISE THIS WILL BE THE LAST RANDOM INFORMATION IN THIS WEBSITE I JUST NEED IT FOR REQUIREMENTS OKAY!"
+echo "OKAY I PROMISE THIS WILL BE THE LAST RANDOM INFORMATION IN THIS WEBSITE I JUST NEED IT FOR REQUIREMENTS OKAY!";
 $phone_number = "0929-817-5456";
 if (preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $phone_number)) {
   echo "Valid phone number. <br>";

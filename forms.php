@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+<link rel="icon" type="image/x-icon" href="https://64.media.tumblr.com/7f34032a4bff4f339d57dc511988efb5/f884c7ec3a21d55c-0c/s540x810/dc5c172d20b43a9e62b6b7759dffc49289ebb4b1.jpg">
+<title>My Practice Website(HTML)</title>
 <style>
 .error {color: #FF0000;}
 </style>
